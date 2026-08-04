@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste-Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    .logo {
+        background: url(images/Logo.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+        hr {
+            border: 2px solid #CA9277;
+        }
+    }
+
+
+    .container {
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+        display: flex;
+        height: 400px;
+        width: 100%;
+        margin: 40px auto;
+
+        .text {
+            border: 2px solid yellow;
+            width: 45%;
+            height: 400px;
+            margin: 30px auto;
+
+            h1 {
+                font-family: "DM Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: bold;
+                font-style: normal;
+                font-size: 56px;
+
+            }
+
+            p {
+                font-family: "DM Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 16px;
+            }
+
+            button {
+                border: none;
+                background-color: #303030;
+                height: 57px;
+                width: 208px;
+                color: #FFF4EB;
+                border-radius: 12px;
+
+            }
+
+        }
+
+        .img {
+            border: 2px solid yellow;
+            width: 50%;
+            height: 400px;
+
+        }
+
+
+
+
+    }
+
+    .img1 {
+        border: 2px solid yellow;
+        width: 50%;
+        height: 400px;
+        background-image: url(images/Yogatime.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .img2 {
+        border: 2px solid yellow;
+        width: 50%;
+        height: 400px;
+        background-image: url( images/healthy.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .img3 {
+        border: 2px solid yellow;
+        width: 50%;
+        height: 400px;
+        background-image: url(images/Start.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+
+
+
+    .cardcontainer {
+        background-color: #303030;
+        margin: 20px auto;
+        border: 2px solid red;
+        display: grid;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+        div {
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            border: 2px solid green;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                color: #FFF4EB;
+                font-family: "DM Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            p {
+                color: #CA9277;
+                font-family: "DM Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 16px;
+            }
+
+            .morning {
+                background-image: url(images/morning-yoga.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .yoga {
+                background-image: url(images/yoga-hjouse.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .balance {
+                background-image: url(images/yoga-balance.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+    }
+
+
+    .sanda {
+        background-color: #303030;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid blue;
+        height: 300px;
+        width: 100%;
+
+        h1 {
+            color: #FFF4EB;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 56px;
+        }
+
+        button {
+            width: 336px;
+            height: 67px;
+            background-color: #CA9277;
+            color: #FFF4EB;
+            border-radius: 12px;
+            border: none;
+
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(0, 0, 0);
+        height: 400px;
+        width: 100%;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #303030;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 56px;
+        }
+
+        button {
+            width: 336px;
+            height: 67px;
+            background-color: #303030;
+            color: #FFF4EB;
+            border-radius: 12px;
+            border: none;
+
+        }
+    }
+
+    .end {
+        border: 2px solid rgb(255, 54, 9);
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+    }
+
+    .vid {
+        border: 2px solid violet;
+        border-radius: 12px;
+        margin: 50px auto;
+        height: 400px;
+        width: 664px;
+        align-items: center;
+        justify-content: center;
+        background: url(images/miniature.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer {
+        margin: 30px auto;
+        height: 300px;
+        width: 100%;
+        border: 2px solid red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            border: 2px solid green;
+            width: 23%;
+            height: 250px;
+            gap: 15px;
+        }
+
+        h4 {
+            color: #303030;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 18px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #303030;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 14px;
+        }
+    }
+
+    .petitlogo {
+        display: flex;
+        flex-direction: column;
+
+        .aa {
+            border: 2px solid red;
+            width: 100%;
+            height: 350px;
+            background-image: url(images/Logo.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+        }
+
+        .bb {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(0, 13, 255);
+            width: 100%;
+            height: 200px;
+
+            .cc {
+                align-items: center;
+                justify-content: space-around;
+                color: #303030;
+                font-size: 27px;
+                width: 20px;
+                height: 20px;
+                gap: 20px;
+            }
+
+        }
+
+
+    }
+
+    .last {
+        height: 80px;
+        background-color: #303030;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            color: #FFF4EB;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+    }
+</style>
+
+<body>
+
+
+    <div class="logo"></div>
+    <hr>
+
+    <div class="container">
+        <div class="text">
+            <h1>
+                Relax. Recline. <br> Wind Down.
+            </h1>
+
+            <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit ut aliquam,
+                purus sit amet luctus venenatis,
+                lectus magna fringilla urna,
+                porttitor rhoncus dolor purus non enim praesent
+            </p>
+
+            <button>GET STARTED</button>
+
+        </div>
+        <div class="img1"></div>
+    </div>
+
+    <div class="cardcontainer">
+        <div>
+            <div class="morning"></div>
+
+            <h3>Morning routine for beginners</h3>
+            <p>30 mins • relaxation & streching</p>
+        </div>
+
+
+        <div>
+            <div class="yoga"></div>
+
+            <h3>Yoga in house </h3>
+            <p>30 mins • relaxation & streching</p>
+        </div>
+
+
+        <div>
+            <div class="balance"></div>
+
+            <h3>Balance Yoga</h3>
+            <p>30 mins • relaxation & streching</p>
+        </div>
+
+
+
+    </div>
+
+    
+    </div>
+
+    <div class="container">
+        <div class="img2"></div>
+        <div class="text">
+            <h1>
+                Healthy lifestyle <br> with yoga.
+            </h1>
+
+            <p>
+                We are a Yoga Studio based in Sidney, Australia. Our goal is to <br> promote a healthy lifestyle through
+                practice of yoga and mindfulness. <br> Classes are held in our studio space and online. Everyone is
+                welcome <br>
+                to join our little community.
+            </p>
+
+            <button>ABOUT US</button>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="text">
+            <h1>
+                Start with us <br>the body and mind <br> clensing
+            </h1>
+
+            <p>
+                No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but <br> because those who
+                do
+                not know how to pursue pleasure rationally <br> encounter consequences that are extremely painful.
+            </p>
+
+            <button>GET STARTED</button>
+
+        </div>
+        <div class="img3"></div>
+
+
+    </div>
+
+
+    <div class="sanda">
+        <div>
+            <h1>
+                Discover yourself <br>
+                through yoga
+            </h1>
+        </div>
+
+
+        <div>
+            <button>
+                START YOUR JOURNEY
+            </button>
+        </div>
+    </div>
+
+    <div class="bio">
+        <div>
+            <h1>
+                Explore our video <br>
+                courses today.
+            </h1>
+
+            <p>
+                Practice anywhere, anytime. Explore our online classes as new way to exercise and learn more about
+                yourself.
+            </p>
+        </div>
+        <div>
+            <button>
+                WATCH OUR ONLINE COURSES
+            </button>
+        </div>
+
+
+    </div>
+
+    <div class="end">
+        <div class="vid">
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="petitlogo">
+
+            <div class="aa">
+
+            </div>
+
+            <p>
+                Lorem ipsum dolor sit amet, <br>
+                consectetur adipiscing elit ut
+                <br>aliquam
+            </p>
+
+            <div class="bb">
+
+
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram cc"></i>
+                </a>
+
+
+
+                <a href="https://www.youtube.com">
+                    <i class="fa-brands fa-youtube cc"></i>
+                </a>
+
+
+                <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook-f cc"></i>
+                </a>
+
+
+
+
+                <a href="https://www.twitter.com">
+                    <i class="fa-brands fa-twitter cc"></i>
+                </a>
+
+
+
+            </div>
+        </div>
+
+
+        <div>
+            <h4>About </h4>
+            <a href="#">About us</a>
+            <a href="#">News & log</a>
+            <a href="#">Terms & conditions</a>
+        </div>
+
+
+
+
+
+
+
+        <div>
+            <h4>Support</h4>
+            <a href="#">FAQs</a>
+            <a href="#">Support Center</a>
+            <a href="#">Contact us</a>
+            <a href="#">Privacy Policy</a>
+
+        </div>
+
+
+
+        <div>
+            <h4>Contact</h4>
+
+            <a href="mailto:biosandaabdoulmanane@gmail.com">infos@namaste.com</a>
+            <a href="">Terms & agreements</a>
+            <a href="">Privacy Policy</a>
+
+        </div>
+    </div>
+
+    <div class="last">
+
+        <p>Copyright @ Kartik Bansal 2022. All Rights Reserved.</p>
+
+    </div>
+
+</body>
+
+</html>
