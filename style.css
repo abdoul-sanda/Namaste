@@ -20,14 +20,14 @@
         margin-left: 20px;
         justify-content: center;
         align-items: center;
-        border: 2px solid red;
+        
         display: flex;
         height: 400px;
         width: 100%;
         margin: 40px auto;
 
         .text {
-            border: 2px solid yellow;
+            
             width: 45%;
             height: 400px;
             margin: 30px auto;
@@ -62,7 +62,7 @@
         }
 
         .img {
-            border: 2px solid yellow;
+            
             width: 50%;
             height: 400px;
 
@@ -74,7 +74,7 @@
     }
 
     .img1 {
-        border: 2px solid yellow;
+        
         width: 50%;
         height: 400px;
         background-image: url(images/Yogatime.png);
@@ -85,7 +85,7 @@
     }
 
     .img2 {
-        border: 2px solid yellow;
+        
         width: 50%;
         height: 400px;
         background-image: url(images/healthy.jpg);
@@ -96,7 +96,7 @@
     }
 
     .img3 {
-        border: 2px solid yellow;
+        
         width: 50%;
         height: 400px;
         background-image: url(images/Start.jpg);
@@ -112,7 +112,7 @@
     .cardcontainer {
         background-color: #303030;
         margin: 20px auto;
-        border: 2px solid red;
+        
         display: grid;
         height: 400px;
         justify-content: center;
@@ -125,7 +125,7 @@
             justify-content: center;
             align-items: center;
             width: 80%;
-            border: 2px solid green;
+            
             border-radius: 12px;
             display: flex;
             flex-direction: column;
@@ -185,7 +185,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 2px solid blue;
+        
         height: 300px;
         width: 100%;
 
@@ -222,7 +222,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 2px solid rgb(0, 0, 0);
+        
         height: 400px;
         width: 100%;
 
@@ -254,7 +254,7 @@
     }
 
     .end {
-        border: 2px solid rgb(255, 54, 9);
+        
         align-items: center;
         justify-content: center;
         height: 500px;
@@ -262,7 +262,7 @@
     }
 
     .vid {
-        border: 2px solid violet;
+        
         border-radius: 12px;
         margin: 50px auto;
         height: 400px;
@@ -279,7 +279,7 @@
         margin: 30px auto;
         height: 300px;
         width: 100%;
-        border: 2px solid red;
+        
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -287,7 +287,7 @@
         div {
             display: flex;
             flex-direction: column;
-            border: 2px solid green;
+            
             width: 23%;
             height: 250px;
             gap: 15px;
@@ -319,7 +319,7 @@
         flex-direction: column;
 
         .aa {
-            border: 2px solid red;
+            
             width: 100%;
             height: 350px;
             background-image: url(images/Logo.png);
@@ -334,7 +334,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            border: 2px solid rgb(0, 13, 255);
+            
             width: 100%;
             height: 200px;
 
