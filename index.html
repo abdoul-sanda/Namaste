@@ -19,6 +19,10 @@
 
 
     <style>
+
+        body{
+            background-color: #FFF4EB;
+        }
         .logo {
             background: url(images/Logo.png);
             background-position: center;
@@ -35,7 +39,7 @@
         }
 
 
-        .container {
+        .parent {
             margin-left: 20px;
             justify-content: center;
             align-items: center;
@@ -80,7 +84,7 @@
 
             }
 
-            .img {
+            .imgage {
 
                 width: 50%;
                 height: 400px;
@@ -92,7 +96,7 @@
 
         }
 
-        .img1 {
+        .imgage1 {
             display: block;
 
             width: 50%;
@@ -104,7 +108,7 @@
 
         }
 
-        .img2 {
+        .imgage2 {
             display: block;
 
             width: 50%;
@@ -116,7 +120,7 @@
 
         }
 
-        .img3 {
+        .imgage3 {
             display: block;
 
             width: 50%;
@@ -377,7 +381,7 @@
 
         }
 
-        .last {
+        .dernier {
             height: 80px;
             background-color: #303030;
             display: flex;
@@ -399,7 +403,11 @@
 
 
         @media (max-width=431px) {
-            .container {
+            .parent {
+                display: flex;
+                flex-direction: column;
+                height: 600px;
+                margin: 40px auto;
 
                 .text {
                     h1 {
@@ -407,12 +415,12 @@
                         font-optical-sizing: auto;
                         font-weight: bold;
                         font-style: normal;
-                        font-size: 36px;
+                        font-size: 16px;
 
                     }
 
                     p {
-                        font-family: "DM Sans", sans-serif;
+                        font-family: "DM Sans", sans-serif;age
                         font-optical-sizing: auto;
                         font-weight: normal;
                         font-style: normal;
@@ -433,15 +441,15 @@
 
             }
 
-            .img1 {
+            .imgage1 {
                 display: none;
             }
 
-            .img2 {
+            .imgage2 {
                 display: none;
             }
 
-            .img3 {
+            .imgage3 {
                 display: none;
             }
 
@@ -449,6 +457,7 @@
                 grid-template-columns: repeat(1, 1fr);
             }
         }
+        
     </style>
 </head>
 
@@ -459,7 +468,7 @@
     <div class="logo"></div>
     <hr>
 
-    <div class="container">
+    <div class="parent">
         <div class="text">
             <h1>
                 Relax. Recline. <br> Wind Down.
@@ -476,7 +485,7 @@
             <button>GET STARTED</button>
 
         </div>
-        <div class="img1"></div>
+        <div class="imgage1"></div>
     </div>
 
     <div class="cardcontainer">
@@ -510,8 +519,8 @@
 
     </div>
 
-    <div class="container">
-        <div class="img2"></div>
+    <div class="parent">
+        <div class="imgage2"></div>
         <div class="text">
             <h1>
                 Healthy lifestyle <br> with yoga.
@@ -530,7 +539,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="parent">
         <div class="text">
             <h1>
                 Start with us <br>the body and mind <br> clensing
@@ -545,7 +554,7 @@
             <button>GET STARTED</button>
 
         </div>
-        <div class="img3"></div>
+        <div class="imgage3"></div>
 
 
     </div>
@@ -672,7 +681,7 @@
         </div>
     </div>
 
-    <div class="last">
+    <div class="dernier">
 
         <p>Copyright @ Kartik Bansal 2022. All Rights Reserved.</p>
 
